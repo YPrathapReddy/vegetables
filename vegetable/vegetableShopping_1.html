@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="vegetableShopping_1.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/76ca18d675.js" crossorigin="anonymous"></script>
+    <!-- <script src="vegetableShopping_1.js" crossorigin="anonymous"></script> -->
+</head>
+
+<body>
+    
+    <div class="bg-container p-3">
+        <h1 class="heading text-center">Vegetable Grocery List</h1>
+        <div class="mt-4" id="vegetabelContainer">
+            <div class="d-flex flex-row justify-content-center">
+                <h4 class="vegetable-item-heading mr-4">Item Name</h4>
+                <h4 class="vegetable-price-heading mr-5">price <br /><span class="price-kg">(per KG)</span></h4>
+                <h4 class="vegetable-quantity-heading">Quantity<br /><span class="price-kg">(in Gram)</span></h4>
+            </div>
+
+        </div>
+        <div class="ml-5 mt-4 mr-5 note-container">
+            <h5>Note:</h5>
+            <p>Please enter Quantity round figure in grams. Like 1000, 900, 1800, etc... <br />
+                If you didn't enter in round figure value, like 1290, 990, 1450,etc.. then by default it will take upcoming nearest round figure value.
+                <br />And if you enter other than positive integer(number), than it doesn't consider that item.<br />
+                Carry bag is given free, if your total vegetable weight is more than 2 KGs. Other wise if you want carry bag, you have to pay Rs 5.
+                <!-- <span class="offer">Offer:</span><br /> -->
+            </p>
+            <h5>Offer:</h5>
+            <p>
+                If your total cost is 200 or more then you will get <span class="offer">5% off</span><br />
+                If your total cost is 500 or more then you will get <span class="offer">10% off</span>
+            </p>
+            <h5>For home delivery:</h5>
+            <p>For home delivery, minimum charges is Rs 100.<br />
+                And if weight is more than 10 kg, then charges is Rs 10 for each kg.</p>
+        </div>
+        <button class="btn btn-primary mt-4 ml-5" id="calculateCost">Get Total Cost</button>
+        <p id="displayCost"></p>
+        <button class="d-none home-delivery mt-4 ml-5" id="getHomeDelivery">Get Home Delivery</button>
+        <p id="displayDeliveryCost"></p>
+    </div>
+    <script src="vegetableShopping_1.js"></script>
+</body>
+
+</html>

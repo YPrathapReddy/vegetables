@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    /* background-image: url("https://img.freepik.com/free-vector/hand-drawn-shopping-pattern-design_23-2149633578.jpg?w=740&t=st=1700980346~exp=1700980946~hmac=7d1735ea3655783cdf919178a4b150354a1694df82ac62092998df1a826333ae"); */
+    /* height: 100vh; */
+    background-color: #67f5be;
+    /* background-size: cover; */
+    /* font-family: "Roboto"; */
+}
+
+.heading {
+    font-family: "Roboto";
+    color: #147580;
+    font-weight: 600;
+}
+
+.vegetable-item {
+    background-color: #cbe84a;
+    padding: 7px 15px 7px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.vegetable-price {
+    background-color: #cbe84a;
+    padding: 7px 15px 7px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.vegetable-quantity {
+    background-color: #cbe84a;
+    /* padding: 7px 15px 7px; */
+    /* border-radius: 5px; */
+    width: 100px;
+    height: 37px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 22px;
+    /* font-weight: 500; */
+}
+
+.vegetable-item-heading {
+    /* background-color: #cbe84a; */
+    padding: 7px 15px 7px;
+    border-radius: 5px;
+    width: 250px;
+
+}
+
+.vegetable-price-heading {
+    /* background-color: #cbe84a; */
+    padding: 7px 15px 7px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.price-kg {
+    font-size: 15px;
+}
+
+.vegetable-quantity-heading {
+    /* background-color: #cbe84a; */
+    padding: 7px 15px 7px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.note-container {
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.get-cost {
+    background-color: #0c91f0;
+}
+
+.display-cost {
+    background-color: #f7d84a;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+.offer {
+    font-weight: bold;
+}
+
+.home-delivery {
+    background-color: #0bd42c;
+    color: #1c211d;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.user-contact {
+    color: #4b4d48;
+    font-family: "Roboto";
+}
