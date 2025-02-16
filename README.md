@@ -17,6 +17,11 @@ A simple **Vegetable Grocery List** web application built using **HTML, CSS, and
 
 ## 📂 Project Structure
 
+📁 Vegetable Grocery List
+│── 📄 index.html # Main HTML file
+│── 📄 styles.css # CSS styles for UI
+│── 📄 script.js # JavaScript logic for calculations
+
 📷 Preview
 ![image](https://github.com/user-attachments/assets/0211822b-fe9b-4b4e-ab8a-ded88b92b1a3)
 
